@@ -14,3 +14,25 @@ int main(){
 /*
 15
 */
+
+//Functional recursion
+1.
+#include<iostream>
+using namespace std;
+int doSum(int n, int sum){
+    if(n<1){
+        return sum;
+    }
+    sum=doSum(n-1,sum+n);
+    return sum;
+}
+int main(){
+    int sum=doSum(5,0);
+    cout<<sum;
+}
+/*
+15
+*/
+
+2.
+    
