@@ -35,4 +35,20 @@ int main(){
 */
 
 2.
-    
+    #include<iostream>
+using namespace std;
+int doSum(int n){
+    int sum;
+    if(n<1){
+        return 0;
+    }
+    sum=n+doSum(n-1);
+    return sum;
+}
+int main(){
+    int sum=doSum(5);
+    cout<<sum;
+}
+/*
+15
+*/
