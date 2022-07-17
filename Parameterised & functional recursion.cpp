@@ -34,6 +34,9 @@ int main(){
     cout<<sum;
 }
 /*
+int sum=doSum(100,0);
+5050
+
 15
 */
 
