@@ -46,9 +46,9 @@ int doSum(int n){
     return sum;
 }
 int main(){
-    int sum=doSum(5);
+    int sum=doSum(10);
     cout<<sum;
 }
 /*
-15
+55
 */
