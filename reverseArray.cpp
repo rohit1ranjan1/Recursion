@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 void reverseArray(int a[], int i, int n){
-    if(i==n)
+    if(i>=n)
     return;
     
     int swap=a[n];
