@@ -22,3 +22,10 @@ int main() {
 /*
 Not palindrome!
 */
+
+/*
+char arr[5]={'a','b','c','b','a'};
+    if(reverseArray(arr,0,4))
+    
+    Palindrome!
+*/
