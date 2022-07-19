@@ -1,3 +1,4 @@
+//Program to check if the given string or char[]
 #include <iostream>
 using namespace std;
 bool reverseArray(char a[], int i, int n){
