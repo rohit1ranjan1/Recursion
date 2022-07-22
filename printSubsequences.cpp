@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
 using namespace std;
 void subsequences(int ind, vector<int> &v, int arr[], int n){
-    if(ind>=n){
+    if(ind>=n){                                          //base condition
         for(auto it:v){
             cout<<it<<" ";
         }
